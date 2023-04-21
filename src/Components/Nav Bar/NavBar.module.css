@@ -4,9 +4,10 @@
   list-style: none;
   background-color: black;
   padding: 0.9rem;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   margin-block-start: 0em;
   margin-block-end: 0em;
+  font-family: "Poppins", sans-serif;
 }
 
 .NavListPartOne {
@@ -33,6 +34,10 @@
   cursor: pointer;
 }
 
+.NavListContainer:hover {
+  color: rgb(181, 181, 181);
+}
+
 .NavListSignupContainer {
   display: flex;
   align-items: center;
@@ -41,6 +46,18 @@
   background-color: white;
   font-size: larger;
   cursor: pointer;
-  padding: 0.5rem 0.8rem; 
+  padding: 0.5rem 0.8rem;
+  border-radius: 25px;
+}
+
+.NavListSignupContainer:hover {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: black;
+  background-color: rgb(224, 224, 224);
+  font-size: larger;
+  cursor: pointer;
+  padding: 0.5rem 0.8rem;
   border-radius: 25px;
 }
