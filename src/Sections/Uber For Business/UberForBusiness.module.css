@@ -1,0 +1,35 @@
+.UberForBusinessContainer {
+  font-family: "Poppins", sans-serif;
+  padding: 4rem 12rem;
+  background-image: url("https://www.hdwallpapers.in/download/skyscraper_building_near_new_york_river_under_cloudy_sky_in_usa_4k_5k_hd_travel-HD.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top 43%;
+}
+.UberForBusinessContainer h1 {
+  margin-block-start: 0;
+  position: relative;
+  bottom: 1rem;
+}
+.UberForBusinessContainer p {
+  position: relative;
+  bottom: 1rem;
+}
+
+.UberForBusinessContainer button {
+  padding: 0.9rem;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  width: 7.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  position: relative;
+  bottom: 1rem;
+}
+
+.UberForBusinessContainer button:hover {
+  background-color: rgb(46, 46, 46);
+}

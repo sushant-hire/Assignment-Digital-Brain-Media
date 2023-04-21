@@ -1,0 +1,79 @@
+.SignUpToContainer {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2.5rem 5rem 5rem 5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.SignUpToDriveContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  border-bottom: 2px solid black;
+  width: 34rem;
+  cursor: pointer;
+}
+
+.SignUpToDriveContainer h1 {
+  color: black;
+}
+.SignUpToDriveContainer h1:hover {
+  color: rgb(74, 74, 74);
+}
+
+.SignUpToRideContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16rem;
+  width: 34rem;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.SignUpToRideContainer h1 {
+  color: black;
+}
+
+.SignUpToRideContainer h1:hover {
+  color: rgb(74, 74, 74);
+}
+
+.Arrow {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.SignUpToRideContainer:hover .Arrow {
+  animation: arrow-animation 0.7s forwards;
+}
+
+@keyframes arrow-animation {
+  50% {
+    transform: translateX(30px) scale(0);
+  }
+  51% {
+    transform: translateX(-30px) scale(0);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+.SignUpToDriveContainer:hover .Arrow {
+  animation: arrow-animation 0.7s forwards;
+}
+
+@keyframes arrow-animation {
+  50% {
+    transform: translateX(30px) scale(0);
+  }
+  51% {
+    transform: translateX(-30px) scale(0);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}

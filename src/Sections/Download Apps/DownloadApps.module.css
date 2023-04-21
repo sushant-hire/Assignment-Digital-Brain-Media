@@ -1,0 +1,42 @@
+.DownloadAppsContainer {
+  background-color: rgb(242, 242, 242);
+  font-family: "Poppins", sans-serif;
+}
+.DownloadAppsContainer h1 {
+  padding-top: 2.5rem;
+  padding-left: 12rem;
+  margin-block-end: 0;
+  position: relative;
+  top: 1rem;
+}
+
+.DownloadAppsMapContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 4.5rem;
+}
+
+.DownloadAppsGridContainer {
+  background-color: white;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.DownloadAppsGridContainer:hover .Arrow {
+  transform: translateX(15px);
+  transition: transform 0.3s ease;
+}
+
+.DownloadAppsGridContainer .Arrow {
+  transform: translateX(0px);
+  transition: transform 0.3s ease;
+}
+
+.Arrow {
+  transition: transform 0.3s ease;
+}

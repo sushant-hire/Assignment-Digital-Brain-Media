@@ -1,0 +1,21 @@
+.FooterContainer {
+    background-color: black;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: white;
+}
+
+.FooterElementsGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.FooterElementsGridContainer div p {
+    color: white;
+    cursor: pointer;
+}
+.FooterElementsGridContainer div p:hover {
+    color: rgb(159, 157, 157)
+}

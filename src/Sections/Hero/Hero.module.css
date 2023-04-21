@@ -1,0 +1,218 @@
+.HeroContainer {
+  padding: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.EntireCardContainer {
+  background-color: white;
+  width: 40%;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  margin-left: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.CardDeetsOne {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.CardDeetsTwo {
+  position: relative;
+  right: 1rem;
+}
+
+.CardDeetsOne h1 {
+  font-size: 3rem;
+}
+
+.CardDeetsTwo h1 {
+  font-size: 3rem;
+}
+
+.CardDeetsThree h1 {
+  font-size: 3rem;
+}
+
+.CardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  padding-top: 2rem;
+  position: relative;
+  right: 1rem;
+  border-bottom: 1px solid gainsboro;
+}
+.CardContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ActiveCard {
+  border-bottom: 4px solid black;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  cursor: pointer;
+}
+
+.InactiveCard {
+  cursor: pointer;
+}
+
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  gap: 1rem;
+}
+
+.Pickup {
+  padding: 1rem;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  width: 30.5rem;
+  background-color: rgb(237, 237, 237);
+}
+.Pickup:focus {
+  outline: none;
+}
+
+.Destination {
+  padding: 1rem;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  width: 30.5rem;
+  background-color: rgb(237, 237, 237);
+
+}
+.Destination:focus {
+  outline: none;
+}
+
+.ButtonContainer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  position: relative;
+  top: 1rem;
+}
+
+.RequestButton {
+  padding: 0.9rem;
+  color: white;
+  background-color: black;
+  width: 9rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+.RequestButton:hover {
+  background-color: rgb(38, 38, 38);
+}
+
+.SignupButton {
+  padding: 0.9rem;
+  color: white;
+  background-color: black;
+  width: 10rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  bottom: 0.5rem;
+}
+.SignupButton:hover {
+  background-color: rgb(38, 38, 38);
+}
+
+.GetStarted {
+  padding: 0.9rem;
+  color: white;
+  background-color: black;
+  width: 10rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  top: 1.2rem;
+}
+
+.GetStarted:hover {
+  background-color: rgb(38, 38, 38);
+}
+
+.ScheduleButton {
+  padding: 0.9rem;
+  background-color: rgb(237, 237, 237);
+  width: 11rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.ScheduleButton:hover {
+  background-color: rgb(231, 230, 230);
+}
+
+.CardDeetsTwo h1 {
+  position: relative;
+  right: 1rem;
+}
+
+.CardDeetsTwoP1 {
+  position: relative;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.CardDeetsTwoP2 {
+  display: inline-block;
+  flex-direction: column;
+  position: relative;
+  right: 11rem;
+  top: 3.5rem;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  margin-bottom: 2.5rem;
+}
+
+.CardDeetsTwoP2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.9px;
+  background: linear-gradient(to right, gray, black);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.CardDeetsTwoP2:hover::before {
+  transform: scaleX(1);
+}
+
+.CardDeetsTwo button {
+  position: relative;
+  right: 1rem;
+}

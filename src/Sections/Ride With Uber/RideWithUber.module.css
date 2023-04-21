@@ -1,0 +1,45 @@
+.RideWithUberContainer {
+  font-family: "Poppins", sans-serif;
+  padding-top: 2rem;
+}
+.RideWithUberContainer h1 {
+  padding-left: 12rem;
+}
+
+.RideWithUberGridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.5rem;
+  row-gap: 6rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-bottom: 8rem;
+  padding-top: 2rem;
+}
+
+.RideWithUberElements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+  cursor: pointer;
+}
+.RideWithUberElements div p {
+  font-size: 0.91rem;
+  width: 20rem;
+  position: relative;
+  bottom: 1rem;
+}
+
+.Arrow {
+  transition: transform 0.3s ease;
+}
+
+.RideWithUberElements:hover .Arrow {
+  transform: translateX(15px);
+  transition: transform 0.3s ease;
+}
+.RideWithUberElements .Arrow {
+  transform: translateX(0px);
+  transition: transform 0.3s ease;
+}
