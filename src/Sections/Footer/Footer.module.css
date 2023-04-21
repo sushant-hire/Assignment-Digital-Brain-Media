@@ -1,21 +1,98 @@
 .FooterContainer {
-    background-color: black;
-    padding-left: 12rem;
-    padding-right: 12rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    color: white;
+  background-color: black;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .FooterElementsGridContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-.FooterElementsGridContainer div p {
-    color: white;
-    cursor: pointer;
+.VisitHelpCenter {
+  cursor: pointer;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  top: 4rem;
+  right: 4rem;
 }
-.FooterElementsGridContainer div p:hover {
-    color: rgb(159, 157, 157)
+
+.VisitHelpCenter:hover {
+  border-bottom: 2px solid white;
+}
+
+.FooterElements {
+  color: white;
+  cursor: pointer;
+}
+
+.FooterElements:hover {
+  color: rgb(181, 181, 181);
+}
+
+.FooterLinks {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3.5rem;
+}
+
+.FooterLinksOne {
+  display: flex;
+  gap: 7rem;
+  cursor: pointer;
+}
+
+.FooterLinksTwo {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.FooterLinksTwo p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.StoreLinks {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.StoreLinks img {
+  cursor: pointer;
+}
+
+.CopyrightContainer {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.CopyrightContainer div {
+  display: flex;
+  margin-left: auto;
+  gap: 2rem;
+}
+
+.CopyrightContainer div p {
+  cursor: pointer;
+  color: white;
+}
+
+.CopyrightContainer div p:hover {
+  color: rgb(181, 181, 181);
 }

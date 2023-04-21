@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.NavListPartOne img {
+ cursor: pointer;
+}
+
 .NavListPartTwo {
   display: flex;
   margin-left: auto;
