@@ -1,3 +1,7 @@
+# Assignment Aim
+
+To develop a clone of the Uber homepage by designing and implementing a comprehensive user interface that closely emulates the structure, and features of the original website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
